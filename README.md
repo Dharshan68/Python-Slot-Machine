@@ -21,3 +21,24 @@ The goal of the game is to provide an engaging, simulated slot machine experienc
 - Symbols have different values (e.g., "A" has the highest payout, "D" the lowest).
 - Winning occurs if all symbols in a line match.
 - Payout is calculated based on the symbol's value and the bet amount.
+
+***
+## Game Play
+
+### Symbols and Payouts
+
+There are 4 symbol with the following payout rate:
+
+- A: 6
+- B: 4
+- C: 3
+- D: 2
+
+If a user has made a bet of ₹50 per line, and after spinning, only one line out of bet lines matched with a "D". The prize would be **₹100** because `₹50 * 2 = ₹100`. However, if there is no match (loss), the total bet amount of ₹150 (₹50 \* 3 selected lines) will be deducted from the balance.
+
+#### CASE-1
+![image](https://github.com/Dharshan68/images/blob/main/Screenshot%202024-11-10%20220912.png?raw=true)
+
+
+#### CASE-2
+![image](https://github.com/Dharshan68/images/blob/main/Screenshot%202024-11-10%20221207.png?raw=true)
